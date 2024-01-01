@@ -24,7 +24,7 @@ jobs:
         node: [14]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: corepack enable
       - uses: actions/setup-node@v3
         with:
